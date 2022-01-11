@@ -1,0 +1,47 @@
+body {
+
+    height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #9DADC9;
+    background-image: url('/icon.94507e65.png');
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#root {
+
+    height: 100%;
+}
+
+.App {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+.pomodoro {
+
+    font-size: 5em;
+    color: #FFD2B8;
+    
+}
+
+.time {
+
+    align-content: center;
+   
+}
+
+.message {
+
+    font-size: 0.5em;
+    min-height: 1.3em;
+    margin-bottom: 0.5em;
+}
+
+
+
+
+/*# sourceMappingURL=/react-pomodoro.e31bb0bc.css.map */

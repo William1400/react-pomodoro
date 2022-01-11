@@ -1,14 +1,14 @@
-import React from "react"
-import Pomodoro from "./Pomodoro"
+import React from "react";
+import Pomodoro from "./Pomodoro";
+import '../style/App.css';
 
-function App() {
+export default function App() {
 
     return (
 
-        <div>
+        <div className='App'>
             <Pomodoro />
+            <Button />
         </div>
     );
 }
-
-export default App;
